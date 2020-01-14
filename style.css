@@ -126,3 +126,49 @@ html,body{
 	height: 30px;
 	width: 30px;
 }
+
+
+.btn{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+.btn-main{
+	margin: 15px 15%;
+	font-weight: lighter;
+	font-size: 1.25em;
+	background-color: rgba(255,255,255,0.1);
+	border: solid 1px blue;
+	padding: auto 15%;
+}
+
+.btn-main:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.btn-play{
+	margin: 0 auto;
+	display: block;
+	color: blue;
+	font-size: 3.5em;
+	border-radius: 50%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.tour-row{
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+.tour-row:last-child{
+	border-bottom: none;
+}
+
+.tour-item{
+	padding: .5em;
+}
