@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: Raleway;
+	color : #777;
+}
+
+@font-face{
+	font-family: "1";
+	src: url(Fonts/1.woff) format("woff"),
+		url(Fonts/1.woff2) format("woff2");
+	font-weight: normal;
+	font-style : normal;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul{
+	margin: 0;
+
+}
+
+.nav a{
+	display: inline-block;
+	padding: .7em;
+	color: white;
+	text-decoration: none;
+}
+.nav li{
+	display: inline;
+}
+
+
+.nav a:hover{
+	background-color: rgba(255,255,255,.3);
+}
+
+.main-nav{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255,255,255,.3)
+}
+
+.main-nav li{
+	padding: 0 5%;
+}
+.main-header{
+	background-color:rgba(0,0,0,.6);
+	background-image: url(images/1.png);
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding-bottom: 30px;
+}
+
+.band-name {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+	font-family: "1";
+}
+
+.band-name-main {
+	font-size: 11em;
+	color:white;
+	letter-spacing : 0.03em;
+}
+
+.content-section{
+	padding : 0;
+	margin: 1em;
+}
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding : 0 1.5em;
+}
+
+.section-header {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "1";
+	letter-spacing: 0.25em;
+}
+
+.band-img-about {
+	width: 300px;
+	heigh: 300px;
+	float: left;
+	padding : 10px;
+	margin : 15px;
+	border-radius: 50%;
+
+}
+
+.main-footer {
+	background-color: rgba(44, 130, 201, 1);
+	color: white;
+}
+
+.main-footer .band-name {
+	color: white;
+}
+.main-footer-container {
+	display: flex;
+	align-items: center;
+
+
+}
+
+.main-footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+
+.footer-nav{
+	padding: 0 .5em;
+}
+
+.footer-nav img{
+	height: 30px;
+	width: 30px;
+}
