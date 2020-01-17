@@ -27,7 +27,7 @@ html,body{
 .nav a{
 	display: inline-block;
 	padding: .7em;
-	color: white;
+
 	text-decoration: none;
 }
 .nav li{
@@ -160,15 +160,48 @@ html,body{
 }
 
 .tour-row{
-	padding-bottom: 1em;
-	margin-bottom: 1em;
 	border-bottom: 1px solid black;
-}
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
 
-.tour-row:last-child{
-	border-bottom: none;
 }
 
 .tour-item{
-	padding: .5em;
+	display: inline-block;
+	padding-right: 0.5em;
 }
+
+.tour-row:last-child{
+	border: none;
+}
+
+.tour-date{
+	font-weight: bolder;
+	width: 11%;
+}
+
+.tour-place{
+	width: 24%;
+}
+
+.tour-arena{
+	width: 42%;
+}
+
+.tour-btn{
+	max-width: 19%;
+	background-color: #2E9CDB;
+	border: solid 1px blue;
+	padding: auto 15%;
+	color: white;
+	font-weight: lighter;
+}
+
+
+.tour-btn:hover{
+
+	background-color: rgba(46,156,219,0.7);
+
+
+}
+
