@@ -24,26 +24,46 @@ html,body{
 
 }
 
-.nav a{
-	display: inline-block;
-	padding: .7em;
-
-	text-decoration: none;
-}
-.nav li{
-	display: inline;
-}
 
 
-.nav a:hover{
-	background-color: rgba(255,255,255,.3);
-}
 
-.main-nav{
+/*.main-nav{
 	text-align: center;
 	font-size: 1.3em;
 	font-weight: lighter;
 	border-bottom: 1px solid rgba(255,255,255,.3)
+}*/
+
+.main-nav{
+	display: flex;
+	justify-content: center;
+
+}
+
+.nav-buttons{
+	font-size: 1.3em;
+	background-color: transparent;
+	border: none;
+	font-weight: lighter;
+	padding-top: 18px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-right: 12px;
+	letter-spacing: 1.2px;
+
+}
+
+.active-nav{
+	background-color: rgba(255,255,255,0.3);
+	color: white;
+
+}
+
+.nav-buttons:hover{
+	color: pink;
+	cursor: pointer;
+	background-color: rgba(255,255,255,0.3);
 }
 
 .main-nav li{
@@ -363,4 +383,16 @@ html,body{
 .purchase{
 	display: flex;
 	justify-content: center;
+}
+
+
+.foot-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.foot-icon{
+	height: 25px;
+	margin-right: 23px;
 }
